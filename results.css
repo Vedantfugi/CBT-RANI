@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #FFB6C1, #FF69B4); /* soft pink gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #results-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 70%;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    color: #FF1493;
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #8B008B;
+    margin-bottom: 25px;
+  }
+  
+  #result-summary {
+    font-size: 1.2rem;
+    color: #4B0082;
+    margin-bottom: 40px;
+  }
+  
+  .result-item {
+    background: #FFDEAD;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .correct {
+    background-color: #90EE90; /* light green */
+  }
+  
+  .wrong {
+    background-color: #FFB6C1; /* light red */
+    font-weight: bold;
+  }
+  
+  .unattempted {
+    background-color: #F0E68C; /* light yellow */
+  }
+  
+  #motivation-message {
+    font-size: 1.5rem;
+    color: #FF69B4;
+    margin-top: 40px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  button {
+    background: #FF69B4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #FF1493;
+  }
+  
+  #correct-questions {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #correct-questions h3 {
+    font-size: 1.5rem;
+    color: #228B22;
+  }
+  
+  #wrong-questions, #unattempted-questions {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #wrong-questions h3, #unattempted-questions h3 {
+    font-size: 1.5rem;
+    color: #8B0000;
+  }
+  
+  .question {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .question p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .question span {
+    color: #FF1493;
+    font-weight: bold;
+  }
+  
+  #final-motivation {
+    margin-top: 40px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #FF1493;
+    font-weight: bold;
+  }
+  
