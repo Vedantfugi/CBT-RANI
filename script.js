@@ -1,5 +1,5 @@
 let questions = [];
-let timeLeft = 60;
+let timeLeft = 3600;
 let selectedAnswers = {}; // Store selected answers
 let timer;
 
